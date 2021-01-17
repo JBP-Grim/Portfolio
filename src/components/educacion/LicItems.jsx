@@ -17,14 +17,11 @@ const LicItem = (props) => {
 
     return(
         <div onMouseOver={increaseHeight} onMouseLeave={decreseHeight} className="licDiv">
-            <div className="row">
-                <div className="col-1" style={{textAlign:"center"}}>
-                    <i class="fas fa-dot-circle fa-3x"></i>
-                </div>
-                <div className="col-11">
-                    <h2>{props.title}</h2>
-                </div>
-            </div>
+            <div>
+                <i class="far fa-arrow-alt-circle-down fa-3x courseIcon"></i>
+                <h2 style={{display:"inline", marginLeft:"15px", position:"relative", bottom:"5px"}}>{props.title}</h2>
+            </div> 
+            
             <div className="infoStudyContent" style={getDivStile}>
                 <div className="row propTag">
                     <div className="col-8">

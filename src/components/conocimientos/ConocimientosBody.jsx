@@ -45,7 +45,13 @@ const ConocimientosBody = ()=>{
     let [getLevelStyle, setLevelStyle] = React.useState({
         height:"5%",
         backgroundColor:"white"
-    })
+    });
+
+    let [getInstructionStyle, setInstructionStyle] = React.useState({
+        textAlign:"center", 
+        padding:"0px 50px 60px", 
+        marginTop:"50px"
+    });
 
     function newTool(newInfo){
         if(displayStat === false){
@@ -68,6 +74,10 @@ const ConocimientosBody = ()=>{
                 background:newInfo.color,
                 background:newInfo.gradient
             });
+
+            setInstructionStyle({
+                display:"none"
+            });
         }, 600);
         
     }
@@ -81,11 +91,7 @@ const ConocimientosBody = ()=>{
             <section id="knowledgeSection">
                 <div id="itemInfoDiv">
                 <img src="elements/images/cornerBg.png" style={{width:"100%"}}/>
-                    <div style={{textAlign:"center", padding:"0px 50px 60px"}}>
-                        <h1>Selecciona una herramienta para saber más.</h1>
-                        <br/>
-                        <i className="fas fa-arrow-circle-down fa-4x"></i>
-                    </div>
+                    
                     <div style={{display:displayStat===false?"none":"block"}} id="knowledgeGraphic">
                         <h1 style={{padding:"50px 20%", fontSize:"5rem"}}>{getToolInfo.name}</h1>
                         <div id="graphicFrame" style={graphicFrameStyle}>
@@ -115,15 +121,20 @@ const ConocimientosBody = ()=>{
                             <h3>Tecnología</h3>
                         </div>
 
-                        <div id="knowledgeInfo" style={{padding:"70px 15%"}}>
-                        <h3>{getToolInfo.info}</h3>
+                        <div id="knowledgeInfo" style={{padding:"60px 15% 120px"}}>
+                            <h3>{getToolInfo.info}</h3>
+                        </div>
                     </div>
+
+                    <div style={getInstructionStyle}>
+                        <h1>Selecciona una herramienta para saber más.</h1>
+                        <br/>
+                        <i className="fas fa-arrow-circle-down fa-4x"></i>
                     </div>
                 </div>
             
                 <section className="container">
                     <div style={rowStyle} id="itemsDiv">
-                        <br/>
                         <br/>
                         <div className="row">
                             {knowItems.map((currentItem) => 

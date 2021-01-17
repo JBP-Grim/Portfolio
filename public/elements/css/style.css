@@ -365,10 +365,20 @@ div.hoverImages {
 }
 
 .infoStudyContent{
-  margin: 20px 0 0;
-  padding: 0 100px;
   overflow: hidden;
   transition: 500ms ease;
+
+  margin:-7px 0 0 21px;
+  padding:40px 0px 10px 100px;
+  border-left:dotted white 5px;
+}
+
+.courseIcon{
+  transition: transform 200ms;
+}
+
+.licDiv:hover .courseIcon{
+  transform: rotate(180deg);
 }
 
 #educationSection p{
@@ -380,7 +390,7 @@ div.hoverImages {
 }
 
 .infoStudyContent .row{
-  margin: 0 0 20px;
+  margin: 10px 0 20px;
 }
 
 .propTag{

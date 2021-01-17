@@ -40,7 +40,7 @@ const blocks = [
         courses:[
             {
                 id:2.2,
-                title:"The Complete 2020 Web Development Bootcamp",
+                title:"Web Development Bootcamp",
                 concept:"CURSO TOMADO EN LA PLATAFORMA UDEMY EL CUAL, ABORDA TEMAS COMO HTML, CSS, BOOTSTRAP, JS, DOM, COMANDOS BASICOS DE LINUX, NODE.JS (EXPRESS, API'S, NPM, EJS), BASES DE DATOS Y REACT.JS",
                 link:"https://www.udemy.com/course/the-complete-web-development-bootcamp/",
                 certificate:"https://www.udemy.com/certificate/UC-fbf45397-01f5-48b6-8cb8-b319f32626a3/"
