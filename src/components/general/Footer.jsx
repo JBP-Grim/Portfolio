@@ -24,6 +24,11 @@ const Footer = () =>
     <div style={footerStyle}>
         <h5>J.B.P. Portafolio {currentYear}</h5>
         <hr/>
+        <br/>
+        <h5><a href="https://github.com/OMEGONCIO/Portfolio" target="blank" style={{color:"white"}}>Click aquí para ver código del sitio en <strong>GitHub</strong></a></h5>
+        <i class="fab fa-github fa-3x"></i>
+        <br/>
+        <br/>
         <h5>Website desarrollado con:</h5>
         {footerIcons.map(currentInfo =><NewIcon key={currentInfo.id} img={currentInfo.img}/>)}
     </div>
