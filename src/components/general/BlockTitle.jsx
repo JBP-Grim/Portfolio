@@ -16,7 +16,7 @@ const h1Style={
 const Header = (porps) => {
     return(
         <div style={divStyle}>
-            <h1 style={h1Style}>{porps.name}</h1>
+            <h1 className="blockTitle">{porps.name}</h1>
         </div>
     )
 }

@@ -1,22 +1,11 @@
 import React from "react";
 
-const divStyle = {
-    margin:"50px 100px"
-}
-
-const secDivStyle = {
-    margin:"-20px 0 0 17px",
-    padding:"40px 0px 10px 100px",
-    fontSize:"1.4rem",
-    borderLeft:"dotted white 5px"
-}
-
 const Freelance = (props) =>{
 
     return(
-        <div style={divStyle}>
+        <div className="experienceElement">
             <h1><i class="fas fa-dot-circle"></i> {props.title}</h1>
-            <div style={secDivStyle}>
+            <div className="innerExperienceElement">
                 <h2> Descripción <i class="fas fa-feather-alt"></i></h2>
                 <p>{props.concept}</p>
                 <hr/>

@@ -13,6 +13,15 @@ html{
   scroll-behavior: smooth;
 }
 
+.blockTitle{
+  text-Align:center;
+  padding:100px 0;
+  font-size:8rem; 
+  color:rgb(221, 221, 221);
+}
+
+/*****************************************************************MAIN PAGE *********************************************************/
+
 #topPresentation{
     background-color: #616161;
     background-image: url("https://www.transparenttextures.com/patterns/shley-tree-1.png");
@@ -197,7 +206,7 @@ html{
 }
 
 #blockSection{
-  margin:auto auto 190px;
+  margin:60px auto 190px;
   color:rgb(221, 221, 221);
 }
 
@@ -206,12 +215,21 @@ html{
   transition: transform .2s;
 }
 
+.descriptionDiv2 h1{
+  font-size: 4rem;
+}
+
 #descriptionRoot:hover .descriptionDiv2{
   transform: scale(1.1);
 }
 
 .descriptionDiv2 p{
   font-size: 1.2rem;
+}
+
+.blockCard{
+  height:170px;
+  width:320px;
 }
 
 .blockCard:hover{
@@ -400,6 +418,14 @@ div.hoverImages {
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
 }
 
+.contentDiv{
+  padding:60px;
+}
+
+.contentDiv h1{
+  font-size: 4rem;
+}
+
 /***************************************************************** Ir al menú principal *********************************************************/
 
 .goIndexa{
@@ -419,4 +445,134 @@ div.hoverImages {
 
 #experienceContent p{
   margin:0 0 20px 30px;
+}
+
+.experienceElement{
+  margin:50px 100px;
+}
+
+.innerExperienceElement{
+  margin:-20px 0 0 17px;
+  padding:40px 0px 10px 100px;
+  font-size:1.4rem;
+  border-left:dotted white 5px;
+}
+
+/***************************************************************** RESPONSIVE *********************************************************/
+
+@media (max-width:991px){
+
+  /***************************************************************** GENERAL *********************************************************/
+  
+  nav{
+    display: none;
+  }
+
+  .blockTitle{
+    text-Align:center;
+    padding:100px 0;
+    font-size: 2.4rem; 
+    color:rgb(221, 221, 221);
+  }
+
+  /***************************************************************** MAIN PAGE *********************************************************/
+
+  .topTextContainer{
+    margin:0 20px;
+  }
+
+  .topText{
+    padding:30px 0 0;
+  }
+
+  .topText h3{
+    margin:0 50px;
+  }
+
+  .topText h1{
+    font-size: 3.0rem;
+  }
+
+  .imgCase{
+    display:none;
+  }
+
+  #descriptionRoot{
+    margin:200px 0 0;
+  }
+
+  .ripple-background{
+    display: none;
+  }
+
+  .scrollTxt{
+    margin:20% 0 0;
+  }
+
+  #descriptionRoot{
+    padding:0;
+  }
+
+  .descriptionDiv2{
+    padding: 0 20px;
+  }
+
+  .descriptionDiv2 h1{
+    font-size: 2.4rem;
+  }
+
+  .blockCard{
+    height:170px;
+    width:100%;
+  }
+
+  #blockSection{
+    margin: 60px auto 100px;
+    color:rgb(221, 221, 221);
+  }
+
+  /***************************************************************** Experiencia *********************************************************/
+
+  .experienceElement{
+    margin:50px 10px;
+  }
+
+  .innerExperienceElement{
+    margin:-20px 0 0 14px;
+    padding:40px 0px 10px 15px;
+  } 
+  
+  .experienceElement h1{
+    font-size: 2rem;
+  }  
+
+  .innerExperienceElement h2{
+    font-size: 1.7rem;
+  }  
+
+  .innerExperienceElement .row{
+    width: 99%;
+  }  
+
+  #experienceContent p {
+    margin:0 0 20px 5px;
+    font-size:1.2rem;
+  }
+
+  /***************************************************************** Educación *********************************************************/
+
+  .licDiv{
+    background-color: none;
+    margin: 20px 0px 40px;
+  }
+
+  .contentDiv{
+    padding:10px;
+  }
+
+  .contentDiv h1{
+    font-size: 2.4rem;
+    text-align: center;
+  }
+
 }

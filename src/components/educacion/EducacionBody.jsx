@@ -26,9 +26,9 @@ const EducacionBody = ()=>{
             <AppBlockSection />
             <DottedHr/>
             <section className="container" id="educationSection" style={{margin:"0 auto 200px"}}>
-                <div className="contentDiv" id="licSection" style={{backgroundColor:"rgba(5,52,54,1)", borderRadius:"30px 30px 0 0", padding:"60px"}}>
+                <div className="contentDiv" id="licSection" style={{backgroundColor:"rgba(5,52,54,1)", borderRadius:"30px 30px 0 0"}}>
                     <div style={studieTypeStyle}>
-                        <h1 style={{fontSize:"4rem"}}>Universidad</h1>
+                        <h1>Universidad</h1>
                         <hr style={{backgroundColor:"white", opacity:"30%"}}/>
                     </div>
                     <br/>
@@ -38,9 +38,9 @@ const EducacionBody = ()=>{
                      )}
                 </div>
 
-                <div className="contentDiv" id="courseSection" style={{backgroundColor:"#0b6a6e", padding:"60px"}}>
+                <div className="contentDiv" id="courseSection" style={{backgroundColor:"#0b6a6e"}}>
                     <div style={studieTypeStyle}>
-                        <h1 style={{fontSize:"4rem"}}>Cursos tomados</h1>
+                        <h1>Cursos tomados</h1>
                         <hr style={{backgroundColor:"white", opacity:"30%"}}/>
                     </div>
                     <br/>
@@ -49,9 +49,9 @@ const EducacionBody = ()=>{
                         <CourseItem title={currentInfo.title} concept={currentInfo.concept} link={currentInfo.link} certificate={currentInfo.certificate}/>
                      )}
                 </div>
-                <div className="contentDiv" id="languageSection" style={{backgroundColor:"#0e898f", borderRadius:"0 0 30px 30px", padding:"60px"}}>
+                <div className="contentDiv" id="languageSection" style={{backgroundColor:"#0e898f", borderRadius:"0 0 30px 30px"}}>
                     <div style={studieTypeStyle}>
-                        <h1 style={{fontSize:"4rem"}}>Idiomas</h1>
+                        <h1>Idiomas</h1>
                         <hr style={{backgroundColor:"white", opacity:"30%"}}/>
                         <div style={{textAlign:"center", paddingTop:"40px", textShadow: "none", color:"white"}} className="row">
                             <div className="col">

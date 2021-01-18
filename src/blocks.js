@@ -198,7 +198,7 @@ const portfolio = [
     {
         id:3,
         title:"título",
-        img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8adefab8-9a4e-4fa7-8ad7-e2e4cf9cf1e9/ddkd68b-35475dd5-44a0-41f0-827a-03b2c8284a13.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOGFkZWZhYjgtOWE0ZS00ZmE3LThhZDctZTJlNGNmOWNmMWU5XC9kZGtkNjhiLTM1NDc1ZGQ1LTQ0YTAtNDFmMC04MjdhLTAzYjJjODI4NGExMy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.fcRmO16hXePtUQvz0vfmOH1pZgOr3ES4iKOrnKE8Xyg",
+        img:"https://www.tryngo.ch/img/no-img.jpg",
         description:"respective description",
         githubLink:"",
         siteLink:""
@@ -206,7 +206,7 @@ const portfolio = [
     {
         id:4,
         title:"título",
-        img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8adefab8-9a4e-4fa7-8ad7-e2e4cf9cf1e9/ddkd68b-35475dd5-44a0-41f0-827a-03b2c8284a13.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOGFkZWZhYjgtOWE0ZS00ZmE3LThhZDctZTJlNGNmOWNmMWU5XC9kZGtkNjhiLTM1NDc1ZGQ1LTQ0YTAtNDFmMC04MjdhLTAzYjJjODI4NGExMy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.fcRmO16hXePtUQvz0vfmOH1pZgOr3ES4iKOrnKE8Xyg",
+        img:"https://www.tryngo.ch/img/no-img.jpg",
         description:"respective description",
         githubLink:"",
         siteLink:""
@@ -214,7 +214,7 @@ const portfolio = [
     {
         id:5,
         title:"título",
-        img:"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8adefab8-9a4e-4fa7-8ad7-e2e4cf9cf1e9/ddkd68b-35475dd5-44a0-41f0-827a-03b2c8284a13.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOGFkZWZhYjgtOWE0ZS00ZmE3LThhZDctZTJlNGNmOWNmMWU5XC9kZGtkNjhiLTM1NDc1ZGQ1LTQ0YTAtNDFmMC04MjdhLTAzYjJjODI4NGExMy5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.fcRmO16hXePtUQvz0vfmOH1pZgOr3ES4iKOrnKE8Xyg",
+        img:"https://www.tryngo.ch/img/no-img.jpg",
         description:"respective description",
         githubLink:"",
         siteLink:""

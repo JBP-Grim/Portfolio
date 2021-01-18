@@ -23,12 +23,12 @@ const IndexBody = ()=>{
                     <div className="context topTextContainer" style={{paddingTop:padding + "px"}}>
                         <div className="topText">
                             <div className="row">
-                                <div className="col">
+                                <div className="col-lg-6 col-md-12">
                                     <h1 className="topPresentation">Hola, soy Josué Barberena.</h1>
                                     <hr/>
                                     <h3>Programador Front-end Jr.</h3>
                                 </div>
-                                <div className="col">
+                                <div className="col-lg-6 col-md-12">
                                     <div className="imgCase">
                                         <img className="topImg" src="https://media3.giphy.com/media/ZVik7pBtu9dNS/giphy.gif?cid=ecf05e4732e30c97babacc86b976e45a42b3b8a4c37dd70b&rid=giphy.gif"/>
                                     </div>

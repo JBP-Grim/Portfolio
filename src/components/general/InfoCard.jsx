@@ -1,8 +1,6 @@
 import React from "react";
 
 const cardStyle={
-    height:"170px",
-    width:"320px",
     background:"linear-gradient(0deg, rgba(4,48,50,1) 0%, rgba(7,81,84,1) 100%)",
     textAlign:"center",
     transition:"transform .2s",
@@ -22,8 +20,6 @@ const h4Style={
 const NewCard = (props)=>{
 
     const cardStyleHover={
-        height:"170px",
-        width:"320px",
         background:"url(' " +props.image +" ') no-repeat",
         backgroundSize: "cover",
         textAlign:"center",
@@ -36,7 +32,7 @@ const NewCard = (props)=>{
     let [getStyle, setStyle] = React.useState(cardStyle);
     
     return (  
-        <div style={{marginTop:"40px"}} className="col">
+        <div style={{marginTop:"40px"}} className="col-lg-4 col-sm-12">
             <a style={anchorStyle} href={((props.title).toLowerCase()).replace(/\s+/g, '')}>
                 <div id={props.id} style={getStyle} onMouseEnter={()=>setStyle(cardStyleHover)} onMouseLeave={()=>setStyle(cardStyle)} className="blockCard">
                     <h4 style={h4Style}>{props.title}</h4>

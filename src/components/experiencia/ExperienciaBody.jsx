@@ -10,8 +10,20 @@ import Profesional from "./Profesional";
 import Freelance from "./Freelance";
 import MainTitle from "../general/BlockTitle";
 
+const totalScreenWidth = window.innerWidth;
 const profesionalExp = experience[0].jobs[0].formal;
 const freelanceExp = experience[0].jobs[0].freelance;
+
+let h1Style = {
+    fontSize:"5rem"
+}
+
+if(totalScreenWidth <= 991){
+    h1Style = {
+        fontSize:"2.4rem",
+        textAlign:"center"
+    }
+}
 
 const ExperienciaBody = ()=>{
     return(
@@ -21,10 +33,10 @@ const ExperienciaBody = ()=>{
             <DottedHr/>
 
             <div style={{backgroundColor:"rgba(5,52,54,1)",backgroundImage:"url('https://www.transparenttextures.com/patterns/black-twill.png')", margin:"0 auto"}}>
-                <img src="elements/images/waveBg.png" style={{width:"100%"}}/>
+                <img src="elements/images/waveBg.png" style={{width:"100%", position:"relative", bottom:"1px"}}/>
                 <div id="experienceContent" className="container" style={{padding:"0 0 200px"}}>
                     <div id="profesionalContent" style={{margin:"0 auto 200px"}}>
-                        <h1 style={{fontSize:"5rem"}}>Profesional</h1>
+                        <h1 style={h1Style}>Profesional</h1>
                         <hr style={{backgroundColor:"grey"}}/>
                         {profesionalExp.map(currentInfo => 
                             <Profesional 
@@ -38,7 +50,7 @@ const ExperienciaBody = ()=>{
                     </div>
 
                     <div id="freelanceContent">
-                        <h1 style={{fontSize:"5rem"}}>Freelance</h1>
+                        <h1 style={h1Style}>Freelance</h1>
                         <hr style={{backgroundColor:"grey"}}/>
                         {freelanceExp.map(currentInfo => 
                             <Freelance 

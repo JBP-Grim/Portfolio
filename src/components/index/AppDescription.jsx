@@ -22,7 +22,7 @@ const Description = () =>
             <img className="imgAvatar" src="https://cdn.dribbble.com/users/1210339/screenshots/2767019/avatar18.gif"></img>
         </div>
         <div className="descriptionDiv2" style={txtStyle}>
-            <h1 style={{fontSize:"4rem"}}>Acerca de mi</h1>
+            <h1>Acerca de mi</h1>
             <p>
                 Mi nombre es Josué Barberena Procel, tengo {currentAge} años y soy ingeniero en sistemas computacionales. 
                 Me apasiona la programación y tengo especial interes en el área de Front-end para programación web, si bien no
