@@ -20,8 +20,22 @@ const txtCol = {
     textAlign:"center"
 }
 
+const responsiveDivStyle={
+    backgroundColor:"rgb(22, 22, 22)",
+    width:"100%",
+    height:"100%",
+    position:"absolute",
+    bottom:"0"
+}
+
+const iStyle = {
+    textAlign:"center",
+    marginTop:"20px"
+}
+
 const ContactBar = () => 
-    <div style={{height:"100%"}}>
+
+    <div style={{height:"100%", position:"relative"}}>
         <nav>
             <div style={arrowDiv}>
                 <h2 style={{padding:"15px 0 0 60px ", color:"white", margin:"auto"}} className="navText">Contactame!</h2>
@@ -68,6 +82,19 @@ const ContactBar = () =>
             </ul>
             <img style={{width:"20rem", paddingLeft:"40px", position:"absolute", bottom:"5px"}} src="../../elements/images/knight.png" />
         </nav>
+        <div id="navResponsiveDiv" style={responsiveDivStyle}>
+            <div className="row">
+                <div style={iStyle} className="col-4">
+                    <a href="main-page"><i style={{position:"relative", bottom:"8px", left:"10px"}} className="fas fa-home fa-3x"></i></a>
+                </div>
+                <div style={iStyle} className="col-4">
+                    <a href={"mailto:" + contacts.email}><i className="far fa-envelope fa-2x"></i></a>
+                </div>
+                <div style={iStyle} className="col-4">
+                    <a href="https://github.com/OMEGONCIO" target="blank"><i className="fab fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 ;
 

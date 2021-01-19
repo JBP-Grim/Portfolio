@@ -2,7 +2,7 @@ const blocks = [
     {
         id:1,
         title: "Experiencia profesional",
-        img :"elements/images/1.gif",
+        img :"elements/images/cv.jpg",
         jobs:[{
             formal:[
                 {
@@ -145,7 +145,7 @@ const blocks = [
     {
         id:4,
         title: "Portafolio",
-        img :"elements/images/1.gif"
+        img :"elements/images/portafolio.jpg"
     }
 ];
 

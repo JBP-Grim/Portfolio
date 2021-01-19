@@ -1,12 +1,5 @@
 import React from "react";
 
-const blockStyle = {
-    width:"100%",
-    height:"135px",
-    margin:"0 35px 50px 35px",
-    textAlign:"center"
-}
-
 const ToolBlock = (props) =>{
 
     const clickedInfo = {
@@ -24,7 +17,7 @@ const ToolBlock = (props) =>{
 
     return(
         
-        <div id="knowledgeIcon" onClick={handleClick} className="col outerDiv" style={blockStyle}>
+        <div id="knowledgeIcon" onClick={handleClick} className="col-lg-3 col-md-12 outerDiv">
             <div className="hoverImages">
                 <img style={{height:"90%"}} src={props.url} />
             </div>

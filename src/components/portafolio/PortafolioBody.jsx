@@ -18,7 +18,7 @@ const Portafolio = () => {
             <DottedHr/>
 
             <div style={{backgroundColor:"rgba(5,52,54,1)",backgroundImage:"url('https://www.transparenttextures.com/patterns/black-twill.png')", padding:"0 0 150px"}}>
-                <img src="elements/images/portafolioBg.png" style={{width:"100%"}}/>
+                <img className="portfolioImg" src="elements/images/portafolioBg.png"/>
                 
                 <section className="container">
                     <div className="row">

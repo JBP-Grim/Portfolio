@@ -54,11 +54,11 @@ const EducacionBody = ()=>{
                         <h1>Idiomas</h1>
                         <hr style={{backgroundColor:"white", opacity:"30%"}}/>
                         <div style={{textAlign:"center", paddingTop:"40px", textShadow: "none", color:"white"}} className="row">
-                            <div className="col">
+                            <div className="col-lg-6 col-md-12">
                                 <h1>Español (nativo).</h1>
                                 <img style={{width:"50%"}} src="elements/images/esp.png"/>
                             </div>
-                            <div className="col">
+                            <div style={{paddingTop:"40px"}} className="col-lg-6 col-md-12">
                                 <h1>Inglés</h1>
                                 <img style={{width:"50%"}} src="elements/images/ing.png"/>
                             </div>

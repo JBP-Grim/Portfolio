@@ -24,10 +24,10 @@ const LicItem = (props) => {
             
             <div className="infoStudyContent" style={getDivStile}>
                 <div className="row propTag">
-                    <div className="col-8">
+                    <div className="col-lg-8 col-md-12">
                         <p><strong>Institución:</strong> {props.institución}</p>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-4 col-md-12">
                         <img style={{width:"100%"}} src="https://www.univdep.edu.mx/img/Logos/univdep_acronimo_azul.png"/>
                     </div>
                 </div>

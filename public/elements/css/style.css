@@ -251,7 +251,7 @@ html{
 
 #contactBar{
   position: fixed;
-  top:0;
+  bottom:0;
   height: 100%;
   z-index: 1;
 }
@@ -264,6 +264,10 @@ nav{
   overflow: hidden;
   height: 100%;
   color:rgb(157, 207, 219);
+}
+
+#navResponsiveDiv{
+  display:none;
 }
 
 .navDiv{
@@ -367,8 +371,55 @@ div.hoverImages {
   -o-transition: margin 0.2s ease-out;
 }
 
+.outerDiv{
+  width:100%;
+  height:135px;
+  margin:0 35px 50px 35px;
+  text-align:center;
+}
+
 .outerDiv:hover .hoverImages{
     margin-top: -10px;
+}
+
+#itemsDiv{
+    background: rgb(51,51,51);
+    background: linear-gradient(180deg, rgba(51,51,51,1) 0%, rgba(14,153,158,1) 85%);
+    margin:0 100px 150px;
+}
+
+#knowledgeInfo{
+  padding:60px 15% 120px;
+}
+
+#knowledgeGraphic h1{
+  padding:50px 20%;
+  font-size:5rem;
+}
+
+#graphicFrame{
+  width:60%;
+  height:400px;
+  position:relative;
+  margin:auto;
+  border-bottom:double black 5px;
+  border-left:double black 5px;
+}
+
+.verticalInfo{
+  transform: rotate(270deg);
+  position:absolute;
+  left:-60px;
+  top:170px;
+  color:black;
+}
+
+.graphicLevel{
+  background-color:rgb(51, 51, 51);
+  display:inline;
+  position:relative;
+  bottom:32px;
+  padding:35px;
 }
 
 /***************************************************************** Educación *********************************************************/
@@ -458,6 +509,12 @@ div.hoverImages {
   border-left:dotted white 5px;
 }
 
+/***************************************************************** PORTFOLIO *********************************************************/
+
+.portfolioImg{
+  width: 100%;
+}
+
 /***************************************************************** RESPONSIVE *********************************************************/
 
 @media (max-width:991px){
@@ -466,6 +523,15 @@ div.hoverImages {
   
   nav{
     display: none;
+  }
+
+  #contactBar{
+    height: 75px;
+    width: 100%;
+  }
+
+  #navResponsiveDiv{
+    display:block;
   }
 
   .blockTitle{
@@ -573,6 +639,111 @@ div.hoverImages {
   .contentDiv h1{
     font-size: 2.4rem;
     text-align: center;
+  }
+
+  .licDiv h2{
+    font-size: 1rem;
+    margin-left: 7px;
+  }
+
+  .licDiv i{
+    font-size: 1.6rem;
+  }
+
+  .infoStudyContent {
+    margin: -7px 0 0 10px;
+    padding: 40px 0px 10px 10px;
+  }
+
+  .propTag{
+    padding:15px;
+  }
+
+  .propTag .col-8{
+    padding:0px;
+  }
+
+  #educationSection p{
+    font-size: 1rem;
+  }
+
+  #languageSection h1{
+    font-size: 1.9rem;
+  }
+
+  /***************************************************************** CONOCIMIENTOS *********************************************************/
+  #itemInfoDiv h1{
+    font-size: 1.4rem;
+  }
+
+  #itemInfoDiv i{
+    font-size: 1.7rem;
+  }
+
+  #itemsDiv{
+    margin:0 0 150px;
+  }
+
+  #itemsSection{
+    padding:0;
+  }
+
+  #knowledgeInfo{
+    padding:60px 15px 120px;
+  }
+
+  #knowledgeInfo h3{
+    font-size: 1.23rem;
+  }
+
+  #knowledgeGraphic h1{
+    text-align: center;
+    padding:50px 0px;
+    font-size:2.4rem;
+  }
+
+  #graphicFrame{
+    width:80%;
+  }
+
+  .verticalInfo{
+    transform: rotate(270deg);
+    position:absolute;
+    left:-50px;
+    top:170px;
+    color:black;
+  }
+
+  .itemLevel {
+    width: 35%;
+    right: 10px;
+  }
+
+  .graphicLevel{
+    background-color:rgb(51, 51, 51);
+    display:inline;
+    position:relative;
+    bottom:32px;
+    padding:10px;
+    font-size: 1rem;
+  }
+
+  .outerDiv{
+    width:100%;
+    height:135px;
+    margin:0 0 50px;
+    text-align:center;
+  }
+
+  #itemsDiv .row{
+    padding: 0;
+    margin:0;
+  }
+
+  /***************************************************************** GO INDEX *********************************************************/
+
+  #goIndexDiv{
+    display:none;
   }
 
 }

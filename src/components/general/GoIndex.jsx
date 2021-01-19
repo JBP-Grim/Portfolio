@@ -13,7 +13,7 @@ const divStyle={
 }
 
 const GoIndex = () =>
-    <div style={divStyle}>
+    <div id="goIndexDiv" style={divStyle}>
         <a className="goIndexa" href="main-page"><i className="fas fa-home fa-3x"  style={{padding:"15px 0 0"}}></i></a>
     </div>
 ;
