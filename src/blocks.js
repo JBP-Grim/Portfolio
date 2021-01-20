@@ -192,7 +192,7 @@ const portfolio = [
         title:"App de Notas",
         img:"elements/images/portafolio/recordatorio.png",
         description:"Aplicación elaborada con React. Uso de react hooks, react components y Material-UI.",
-        githubLink:"",
+        githubLink:"https://github.com/OMEGONCIO/-reminder-ReacApp",
         siteLink:""
     },
     {
