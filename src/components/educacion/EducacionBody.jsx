@@ -33,7 +33,7 @@ const EducacionBody = ()=>{
                     <br/>
 
                      {licStudies.map(currentInfo => 
-                        <LicItem title={currentInfo.title} institución={currentInfo.institución} url={currentInfo.url}/>
+                        <LicItem key={currentInfo.id} title={currentInfo.title} institución={currentInfo.institución} url={currentInfo.url}/>
                      )}
                 </div>
 
@@ -45,7 +45,7 @@ const EducacionBody = ()=>{
                     <br/>
 
                     {courseStudies.map(currentInfo => 
-                        <CourseItem title={currentInfo.title} concept={currentInfo.concept} link={currentInfo.link} certificate={currentInfo.certificate}/>
+                        <CourseItem key={currentInfo.id} title={currentInfo.title} concept={currentInfo.concept} link={currentInfo.link} certificate={currentInfo.certificate}/>
                      )}
                 </div>
                 <div className="contentDiv" id="languageSection" style={{backgroundColor:"#0e898f", borderRadius:"0 0 30px 30px"}}>

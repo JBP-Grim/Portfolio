@@ -92,7 +92,7 @@ const ItemCard = (props) => {
                         <a href={props.githubLink} target="blank" className="btn btn-dark"><i className="fab fa-github"></i> Código</a>
 
                         {props.siteLink !== "" && 
-                            <a href={props.siteLink} target="blank" style={{margin:"0 0 0 10px"}} className="btn btn-dark"><i class="fas fa-globe"></i> Sitio web</a>
+                            <a href={props.siteLink} target="blank" style={{margin:"0 0 0 10px"}} className="btn btn-dark"><i className="fas fa-globe"></i> Sitio web</a>
                         }
                     </div>
                 </div>

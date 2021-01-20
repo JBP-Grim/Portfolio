@@ -24,6 +24,7 @@ const Portafolio = () => {
                     <div className="row">
                         {works.map((currentInfo) =>
                             <ItemCard 
+                                key={currentInfo.id}
                                 title={currentInfo.title}
                                 img={currentInfo.img} 
                                 description={currentInfo.description}

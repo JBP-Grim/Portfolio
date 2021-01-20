@@ -15,9 +15,9 @@ const Freelance = (props) =>{
                         <p>{props.institution}</p>
                     </div>
                     <div className="col">
-                        <h2>Link del sitio <i class="fas fa-link"></i></h2>
+                        <h2>Link del sitio <i className="fas fa-link"></i></h2>
                         <p><a href={props.link} target="blank">{props.link}</a></p>
-                        <p><a href={props.git} target="blank"><i class="fab fa-github"></i> Código en gitHub.</a></p>
+                        <p><a href={props.git} target="blank"><i className="fab fa-github"></i> Código en gitHub.</a></p>
                     </div>
                 </div>
             </div>

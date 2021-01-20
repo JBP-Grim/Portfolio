@@ -18,7 +18,7 @@ const LicItem = (props) => {
     return(
         <div onMouseOver={increaseHeight} onMouseLeave={decreseHeight} className="licDiv">
             <div>
-                <i class="far fa-arrow-alt-circle-down fa-3x courseIcon"></i>
+                <i className="far fa-arrow-alt-circle-down fa-3x courseIcon"></i>
                 <h2 style={{display:"inline", marginLeft:"15px", position:"relative", bottom:"5px"}}>{props.title}</h2>
             </div> 
             
