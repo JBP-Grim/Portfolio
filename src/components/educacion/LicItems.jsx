@@ -28,7 +28,7 @@ const LicItem = (props) => {
                         <p><strong>Institución:</strong> {props.institución}</p>
                     </div>
                     <div className="col-lg-4 col-md-12">
-                        <img style={{width:"100%"}} src="https://www.univdep.edu.mx/img/Logos/univdep_acronimo_azul.png"/>
+                        <img style={{width:"100%"}} src="https://www.univdep.edu.mx/img/Logos/univdep_acronimo_azul.png" alt="description auto"/>
                     </div>
                 </div>
             </div>

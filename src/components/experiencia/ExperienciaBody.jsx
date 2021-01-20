@@ -33,7 +33,7 @@ const ExperienciaBody = ()=>{
             <DottedHr/>
 
             <div style={{backgroundColor:"rgba(5,52,54,1)",backgroundImage:"url('https://www.transparenttextures.com/patterns/black-twill.png')", margin:"0 auto"}}>
-                <img src="elements/images/waveBg.png" style={{width:"100%", position:"relative", bottom:"1px"}}/>
+                <img src="elements/images/waveBg.png" style={{width:"100%", position:"relative", bottom:"1px"}} alt="description auto"/>
                 <div id="experienceContent" className="container" style={{padding:"0 0 200px"}}>
                     <div id="profesionalContent" style={{margin:"0 auto 200px"}}>
                         <h1 style={h1Style}>Profesional</h1>

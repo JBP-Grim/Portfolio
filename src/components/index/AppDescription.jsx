@@ -19,7 +19,7 @@ const Description = () =>
     <div className="descriptionDiv">
         <hr style={{borderTop:"solid 5px", borderRadius:"100%"}}/>
         <div style={imgStyle}>
-            <img className="imgAvatar" src="https://cdn.dribbble.com/users/1210339/screenshots/2767019/avatar18.gif"></img>
+            <img className="imgAvatar" src="https://cdn.dribbble.com/users/1210339/screenshots/2767019/avatar18.gif" alt="description auto"/>
         </div>
         <div className="descriptionDiv2" style={txtStyle}>
             <h1>Acerca de mi</h1>

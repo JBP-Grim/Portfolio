@@ -83,7 +83,7 @@ const ItemCard = (props) => {
             <div style={divCardStyle}>
                 <h1 style={textMargin}>{props.title}</h1>
                 <div style={imgContainer}>
-                    <img style={imgStyle} src={props.img}></img>
+                    <img style={imgStyle} src={props.img} alt="description auto"></img>
                 </div>
                 <div style={textMargin}>
                     <p style={pStyle}>{props.description}</p>

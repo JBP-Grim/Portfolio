@@ -19,7 +19,7 @@ const ToolBlock = (props) =>{
         
         <div id="knowledgeIcon" onClick={handleClick} className="col-lg-3 col-md-12 outerDiv">
             <div className="hoverImages">
-                <img style={{height:"90%"}} src={props.url} />
+                <img style={{height:"90%"}} src={props.url} alt="description auto"/>
             </div>
         </div>
     )

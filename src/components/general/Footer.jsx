@@ -17,7 +17,7 @@ const NewIcon = (props)=>{
         margin:"20px 40px"
     }
 
-    return(<img style={imgStyle} src={props.img}/>);
+    return(<img style={imgStyle} src={props.img} alt="description auto"/>);
 };
 
 const Footer = () =>

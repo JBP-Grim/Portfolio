@@ -67,13 +67,13 @@ const ConocimientosBody = ()=>{
             
             <section id="knowledgeSection">
                 <div id="itemInfoDiv">
-                <img src="elements/images/cornerBg.png" style={{width:"100%"}}/>
+                <img src="elements/images/cornerBg.png" style={{width:"100%"}} alt="description auto"/>
                     
                     <div style={{display:displayStat===false?"none":"block"}} id="knowledgeGraphic">
                         <h1>{getToolInfo.name}</h1>
                         <div id="graphicFrame">
                             <div className="itemLevel" style={getLevelStyle}>
-                                <img src={getToolInfo.img} style={{width:"60%", textAlign:"center", position:"absolute", bottom:"20px", right:"20%", opacity:"100%"}}/>
+                                <img src={getToolInfo.img} style={{width:"60%", textAlign:"center", position:"absolute", bottom:"20px", right:"20%", opacity:"100%"}} alt="description auto"/>
                             </div>
                             <div style={{position:"absolute", width:"100%", bottom:"77%"}}>
                                 <hr/>

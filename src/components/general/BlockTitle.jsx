@@ -6,13 +6,6 @@ const divStyle = {
     margin:"auto"
 }
 
-const h1Style={
-    textAlign:"center", 
-    padding:"100px 0", 
-    fontSize:"8rem", 
-    color:"rgb(221, 221, 221)"
-}
-
 const Header = (porps) => {
     return(
         <div style={divStyle}>

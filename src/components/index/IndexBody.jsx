@@ -30,7 +30,7 @@ const IndexBody = ()=>{
                                 </div>
                                 <div className="col-lg-6 col-md-12">
                                     <div className="imgCase">
-                                        <img className="topImg" src="https://media3.giphy.com/media/ZVik7pBtu9dNS/giphy.gif?cid=ecf05e4732e30c97babacc86b976e45a42b3b8a4c37dd70b&rid=giphy.gif"/>
+                                        <img alt="description auto" className="topImg" src="https://media3.giphy.com/media/ZVik7pBtu9dNS/giphy.gif?cid=ecf05e4732e30c97babacc86b976e45a42b3b8a4c37dd70b&rid=giphy.gif"/>
                                     </div>
                                 </div>
                             </div>

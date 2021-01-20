@@ -80,7 +80,7 @@ const ContactBar = () =>
                     </div>
                 </li>
             </ul>
-            <img style={{width:"20rem", paddingLeft:"40px", position:"absolute", bottom:"5px"}} src="../../elements/images/knight.png" />
+            <img style={{width:"20rem", paddingLeft:"40px", position:"absolute", bottom:"5px"}} src="../../elements/images/knight.png" alt="description auto"/>
         </nav>
         <div id="navResponsiveDiv" style={responsiveDivStyle}>
             <div className="row">
