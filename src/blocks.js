@@ -197,26 +197,26 @@ const portfolio = [
     },
     {
         id:3,
-        title:"título",
-        img:"https://www.tryngo.ch/img/no-img.jpg",
-        description:"respective description",
-        githubLink:"",
+        title:"Secret app",
+        img:"elements/images/portafolio/registerLogin.png",
+        description:"Aplicación creada con Node y Mongo DB, inicio de sesión y registro (sesiones utilizadaas)",
+        githubLink:"https://github.com/OMEGONCIO/login-register-NODE_APP",
         siteLink:""
     },
     {
         id:4,
-        title:"título",
-        img:"https://www.tryngo.ch/img/no-img.jpg",
-        description:"respective description",
-        githubLink:"",
+        title:"Lista por hacer",
+        img:"elements/images/portafolio/toDo.png",
+        description:"Sitio hecho con Node (express) y conexión con Mongo DB.",
+        githubLink:"https://github.com/OMEGONCIO/toDoList-Express-MONGO_App",
         siteLink:""
     },
     {
         id:5,
-        title:"título",
-        img:"https://www.tryngo.ch/img/no-img.jpg",
-        description:"respective description",
-        githubLink:"",
+        title:"API de clima",
+        img:"elements/images/portafolio/api.png",
+        description:"Aplicación con API de clima, realizado con Node",
+        githubLink:"https://github.com/OMEGONCIO/weather-NODE_API_PROJECT",
         siteLink:""
     }
 ]
